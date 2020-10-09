@@ -1,6 +1,6 @@
 //to jest tablica z miastkami
 //w tym pliku nic nie ruszaj
-var cities = [
+let cities = [
     {
         name : "Warszawa",
         population : 1735000,
@@ -49,5 +49,12 @@ var cities = [
         map_x: 620,
         map_y : 185,
         href: "http://www.bialystok.pl/"
+    },
+    {
+        name : "Radomsko",
+        population : 45843,
+        map_x: 355,
+        map_y : 415,
+        href: "http://www.radomsko.pl/"
     }
 ];
